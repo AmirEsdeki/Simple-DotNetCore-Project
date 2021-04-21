@@ -7,6 +7,7 @@ using System;
 
 namespace StockMarketDP.DataProviders
 {
+    //This class lifetime is singleton.
     public class DataProvider : IDataProvider
     {
         private readonly ICSVService _csvService;
@@ -32,7 +33,7 @@ namespace StockMarketDP.DataProviders
         {
             get
             {
-                //by consuming that the csv file updates every 5 sec
+                //Assume that the csv file updates every 5 sec
                 //we check if its time to read the csv file again or just return the existing read csv
                 if ((DateTime.Now - _lastRead).TotalSeconds > 5)
                 {
