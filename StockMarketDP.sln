@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockMarketDP", "StockMarketDP\StockMarketDP.csproj", "{F26C92FB-8079-4B8C-9D47-979AB7BB1289}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F26C92FB-8079-4B8C-9D47-979AB7BB1289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F26C92FB-8079-4B8C-9D47-979AB7BB1289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F26C92FB-8079-4B8C-9D47-979AB7BB1289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F26C92FB-8079-4B8C-9D47-979AB7BB1289}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690D4E95-B092-4B62-92E9-79969BCD9677}
+	EndGlobalSection
+EndGlobal
