@@ -5,6 +5,7 @@
 To launch the application server please follow these instructions:
 
 1- open a cmd in the root folder of the project (StockMarketDP folder)
+
 2- enter these commands:
 
     dotnet restore
