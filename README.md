@@ -1,6 +1,6 @@
 # Simple-DotNetCore-Project
 
-##Introduction:
+## Introduction:
 
 This project implements reading and aggregating stock market data from two different sources and expose the aggregated result as REST endpoints. The first endpoint returns a paged list of latest prices with pagination and custom sort order, the second returns the latest price and some additional field for a given tiker entry. Samples of the input data are provided as csv files. The csv files are in 'CSVFiles' folder in the root of project.
 
